@@ -1,4 +1,4 @@
-## DirSize in Holy C
+## My Collection of HolyC Scripts
 
 This repository contains HolyC scripts that I'm currently working on, including a program specifically designed for TempleOS that recursively calculates the total size of all files contained within a specified root directory and its subdirectories. It's a showcase of leveraging TempleOS's unique system calls and filesystem structure to perform practical tasks.
 
@@ -27,6 +27,12 @@ To use the directory size calculator script, you need to modify the `rootDirPath
 ```c
 CStr rootDirPath = "C:/Path/To/Your/Directory"; // Adjust to your target directory
 ```
+
+## Most Interesting Scripts I've Made in HolyC
+
+I think the buffered file writer based on an interface and file class was most interestin. Since HolyC is unique to TempleOS it doesn't follow the same OOP paradigms/guard rails. I had to define both the interface and the class, including methods for opening, writing to, and closing the file, as well as buffering the write operations to improve performance. 
+
+However, HolyC, being unique to TempleOS, doesn't follow the same object-oriented programming (OOP) paradigms found in languages like C++ or Java, particularly in the use of interfaces in the way you might expect from those languages. Creating it was merely a conceptual approach to creating a buffered file writer for HolyC.
 
 ## Acknowledgments
 
