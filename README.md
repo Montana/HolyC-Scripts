@@ -21,3 +21,8 @@ Each script in this collection is designed to run in the TempleOS environment. T
 
 - A heartfelt thanks to Terry A. Davis for creating TempleOS and the HolyC programming language. His vision and dedication have inspired countless developers to explore computing in new and meaningful ways.
 - Gratitude to the TempleOS community for their ongoing support, contributions, and for keeping the spirit of TempleOS alive.
+
+![image](https://github.com/Montana/HolyC-Scripts/assets/20936398/a0ef44cd-6fdc-41a9-9c01-5898fb44da46)
+> RIP Terry A. Davis.
+
+
