@@ -1,3 +1,6 @@
+![Montana’s](https://github.com/Montana/HolyC-Scripts/assets/20936398/521cb037-fdec-495f-926f-26c39cd36086)
+
+
 # HolyC Scripts Collection
 
 Welcome to my repository of HolyC scripts. This collection represents a variety of utilities, tools, and examples written in HolyC, the programming language used by TempleOS. These scripts are a mixture of projects I've completed over time and continue to contribute to as I explore new ideas and refine existing ones.
