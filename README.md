@@ -1,39 +1,20 @@
-## My Collection of HolyC Scripts
+# HolyC Scripts Collection
 
-This repository contains HolyC scripts that I'm currently working on, including a program specifically designed for TempleOS that recursively calculates the total size of all files contained within a specified root directory and its subdirectories. It's a showcase of leveraging TempleOS's unique system calls and filesystem structure to perform practical tasks.
+Welcome to my repository of HolyC scripts. This collection represents a variety of utilities, tools, and examples written in HolyC, the programming language used by TempleOS. These scripts are a mixture of projects I've completed over time and continue to contribute to as I explore new ideas and refine existing ones.
 
-## Getting Started
+## Overview
 
-These instructions will guide you on how to get a copy of the project up and running on your local machine for development, testing, and exploration purposes.
+HolyC is a unique language, designed and implemented by Terry A. Davis for use in TempleOS. Its syntax and functionality offer a distinct development experience, tailored for the TempleOS environment. This repository serves as a personal archive of my explorations and projects within this fascinating ecosystem.
 
-### Prerequisites
+## Contents
 
-- TempleOS installed on your machine. For installation guidance, visit [TempleOS's official website](https://templeos.org/).
-- A fundamental understanding of TempleOS and its HolyC programming language.
-
-### Installing
-
-To run these HolyC scripts on your TempleOS machine:
-
-1. Clone or download this repository to your TempleOS environment.
-2. Navigate to the directory where the scripts are located.
-3. Open the desired HolyC file in the TempleOS editor.
-4. Execute the script.
+The repository includes a range of scripts, from simple utilities to more complex programs, each demonstrating different aspects of HolyC and its capabilities within TempleOS. While some scripts may have specific purposes or solve particular problems, others are experimental or for learning and demonstration purposes.
 
 ## Usage
 
-To use the directory size calculator script, you need to modify the `rootDirPath` variable in the `Main` function to reflect the directory you wish to analyze:
-
-```c
-CStr rootDirPath = "C:/Path/To/Your/Directory"; // Adjust to your target directory
-```
-
-## Most Interesting Scripts I've Made in HolyC
-
-I think the buffered file writer based on an interface and file class was most interestin. Since HolyC is unique to TempleOS it doesn't follow the same OOP paradigms/guard rails. I had to define both the interface and the class, including methods for opening, writing to, and closing the file, as well as buffering the write operations to improve performance. 
-
-However, HolyC, being unique to TempleOS, doesn't follow the same object-oriented programming (OOP) paradigms found in languages like C++ or Java, particularly in the use of interfaces in the way you might expect from those languages. Creating it was merely a conceptual approach to creating a buffered file writer for HolyC.
+Each script in this collection is designed to run in the TempleOS environment. To use a script, clone or download this repository to your TempleOS machine, navigate to the script's directory, and execute it according to the TempleOS documentation.
 
 ## Acknowledgments
 
-A special thank you to Terry A. Davis for creating the visionary TempleOS and the HolyC programming language. Appreciation to the TempleOS community for their ongoing exploration, documentation, and sharing of knowledge regarding this unique operating system.
+- A heartfelt thanks to Terry A. Davis for creating TempleOS and the HolyC programming language. His vision and dedication have inspired countless developers to explore computing in new and meaningful ways.
+- Gratitude to the TempleOS community for their ongoing support, contributions, and for keeping the spirit of TempleOS alive.
