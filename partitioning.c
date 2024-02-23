@@ -25,7 +25,7 @@ struct MBR {
     U16 signature;
 };
 
-# You will need to define things like boot_indicator,etc. Don't forget the swap! - Michael Mendy.
+// You will need to define things like boot_indicator,etc. Don't forget the swap! - Michael Mendy.
 
 U0 CreatePartition(struct MBR* mbr, U32 start_sector, U32 sectors, U8 partition_type) {
     struct PartitionEntry* entry = &mbr->partitions[0]; 
@@ -45,7 +45,7 @@ U0 WriteMBR(CStr device) {
     struct MBR mbr;
     MemSet(&mbr, 0, sizeof(mbr));
     mbr.signature = BOOT_SIGNATURE;
-    CreatePartition(&mbr, 2048, 4096, 0x83); // Example partition
+    CreatePartition(&mbr, 2048, 4096, 0x83); // This is an example partition. - Michael Mendy
 
     CFileHandle* file = FOpen(device, "w");
     if (file) {
