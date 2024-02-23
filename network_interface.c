@@ -6,7 +6,7 @@ struct NetworkPacket {
 };
 
 struct NetworkInterface {
-    // Hypothetical structure members
+    // Things that feasibly could be monitored. - Michael Mendy.
     U8 macAddress[6];
     U8 ipAddress[4];
     U64 packetsReceived;
