@@ -45,7 +45,7 @@ U0 WriteMBR(CStr device) {
     struct MBR mbr;
     MemSet(&mbr, 0, sizeof(mbr));
     mbr.signature = BOOT_SIGNATURE;
-    CreatePartition(&mbr, 2048, 4096, 0x83); // This is an example partition. - Michael Mendy
+    CreatePartition(&mbr, 2048, 4096, 0x83); // This is an example partition. - Michael Mendy.
 
     CFileHandle* file = FOpen(device, "w");
     if (file) {
