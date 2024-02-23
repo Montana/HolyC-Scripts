@@ -19,7 +19,7 @@ U0 MonitorNetworkInterface(struct NetworkInterface* iface) {
       
         if (ReceivePacket(iface, &packet)) {
             iface->packetsReceived++;
-            // Process the packet here
+            // Processing the packet in particular it's looking for the receipt of packet. The network interface card (NIC) receives a packet from the network and passes it to the network stack. - Michael Mendy.
             PrintF("Packet received on interface: %d bytes\n", packet.length);
         }
     }
